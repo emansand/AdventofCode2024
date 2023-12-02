@@ -7,7 +7,7 @@ VALID = ["0","1","2","3","4","5","6","7","8","9",
 CONVERT = {"zero":0,"one":1,"two":2,"three":3,"four":4,"five":5,"six":6,"seven":7,"eight":8,"nine":9}
 CONVERT.update({num:int(num) for num in ["0","1","2","3","4","5","6","7","8","9"]})
 
-input_file = Path("input.txt")
+input_file = Path("input_day1.txt")
 
 calibration_value = 0
 with open(input_file) as open_file:
